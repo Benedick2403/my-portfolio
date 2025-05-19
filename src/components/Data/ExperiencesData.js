@@ -13,7 +13,7 @@ export default function ExperiencesData(){
     return(
         <>
             <h1 className="mt-5">Work Experience</h1>
-            <div className="flex flex-wrap mt-3 w-full gap-5 mx-7">
+            <div className="flex flex-wrap mt-3 w-full gap-5 md:mx-7">
                 {experienceData.map((experience, index) =>
                     <ExperiencesUI
                     key={index}

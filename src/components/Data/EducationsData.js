@@ -18,7 +18,7 @@ export default function EducationsData(){
     return(
         <>
             <h1>Educational Background</h1>
-            <div className="flex mt-3 mx-7 flex-wrap gap-5 w-full">
+            <div className="flex mt-3 md:mx-7 flex-wrap gap-5 w-full">
                 {educationsData.map((educations, index) =>
                     <EducationsUI
                     key={index}

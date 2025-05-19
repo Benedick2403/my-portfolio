@@ -9,19 +9,20 @@ import './App.css';
 function App() {
   return (
     <>
-      <div className="flex flex-col sm:flex-row flex-wrap justify-evenly gap-6">
-        <AboutMe/>
-        <CardData/>
-        <div className='flex flex-wrap border border-black md:mx-24'>
+      <div>
+        <div className='flex flex-wrap justify-between w-screen h-full pt-12 pb-5 px-8 text-left lg:h-screen lg:pt-24 lg:pb-10 lg:px-32'>
+          <AboutMe/>
+          <CardData/>
+        </div>
+        <div className='w-full h-full px-8 py-4 lg:px-32'>
           <EducationsData/>
           <ExperiencesData/>
         </div> 
-        <div className='flex flex-wrap md:mx-24'>
+        <div className='w-full h-full px-8 py-4 lg:py-12'>
           <SkillsData/>
         </div>
         <Footer/>
       </div>
-      
     </>
   );
 }

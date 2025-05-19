@@ -17,7 +17,7 @@ const skillsData = [
 export default function SkillsData(){
     return(
         <>
-            <div className="flex mt-3 mx-7 flex-wrap justify-evenly gap-8 w-full">
+            <div className="flex mt-3 Md:mx-7 flex-wrap justify-evenly gap-8 w-full">
                 {skillsData.map((skills, index) =>
                 <SkillsUI
                 key={index}

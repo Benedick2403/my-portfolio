@@ -1,28 +1,34 @@
-import { ArrowRight } from 'lucide-react';
 
-export default function ProjectCards({day, title, description, link }) {
+
+export default function ProjectCards({image, day, title, description, link, language}) {
   return (
     <a
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="group block lg:w-96 md:w-3/4 rounded-2xl border border-gray-200 bg-[#F8F8FF] pt-3 px-6 pb-6 shadow-md transition-transform hover:-translate-y-1 hover:shadow-xl"
+      className="max-w-sm bg-[#4295C233] rounded overflow-hidden shadow-lg transition-transform hover:-translate-y-1 hover:shadow-xl"
     >
-    <div className="flex justify-end h-1 pb-2 flex-center">
-        <ArrowRight className="text-gray-400 transition-transform group-hover:translate-x-1 group-hover:text-blue-600" />
-    </div>
-    <div className="flex items-start gap-5">
-        <div className='max-w-[80px]'>
-            <p className="text-sm text-gray-500">{day}</p>
-        </div>
+      <img class="w-full" src={image} alt={title}></img>
+      <div className="px-6 py-2">
+          <div className="px-6 py-4">
+            <h3 className="font-bold text-xl">
+              {title}
+            </h3>
+            <p className="text-xs text-gray-500 mb-2">{day}</p>
+            <p className="text-sm text-gray-600">{description}</p>
+          </div>
 
-        <div className="flex-1">
-          <h3 className="text-base font-semibold text-gray-900 transition-colors group-hover:text-blue-600">
-            {title}
-          </h3>
-          <p className="mt-1 text-sm text-gray-600">{description}</p>
         </div>
-      </div>
+          <div className='px-7 pt-2 pb-2'>
+              {language?.split(',').map((lang, index)=>
+                <span
+                key={index}
+                className='inline-block bg-[#4195C2] rounded-full px-3 py-1 text-sm mr-2 mb-2'
+                >
+                  {lang.trim()}
+                </span>
+              )}
+          </div>
     </a>
   );
 }
