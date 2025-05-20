@@ -7,7 +7,9 @@ export default function EmailSection(){
                     <h2 className="text-lg font-bold lg:text-xl">Did I catch your interest?</h2>
                     <p className="w-full text-sm lg:w-3/4 lg:text-base">If you have any questions, ideas, or just want to chat about my projects, feel free to reach out.  
                     Let’s connect and maybe even share a coffee while we talk about creating something awesome together!</p>
-                    <a className="px-8 py-2 font-medium transition-all ease-in-out border-2 rounded-lg border-[#4f46e5] bg-[#4f46e5] hover:bg-[#f9f9f9] text-[#f9f9f9] hover:text-[#4f46e5] w-fit hover:translate-x-5">
+                    <a className="px-8 py-2 font-medium transition-all ease-in-out border-2 rounded-lg border-[#4f46e5] bg-[#4f46e5] hover:bg-[#f9f9f9] text-[#f9f9f9] hover:text-[#4f46e5] w-fit hover:translate-x-5"
+                    href="https://mail.google.com/mail/u/0/?fs=1&to=mercadobenedick024@gmail.com&su=Let+me+know&tf=cm"
+                    >
                         Email Me
                     </a>
                 </div>
