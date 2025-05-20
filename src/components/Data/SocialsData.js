@@ -20,7 +20,7 @@ const socialsData = [
 export default function SocialsData(){
     return(
         <>
-        <div className='flex gap-5 mt-5'>
+        <div className='flex gap-5 mt-3'>
             {socialsData.map((socials, index) =>(
                 <SocialsUI
                 key={index}

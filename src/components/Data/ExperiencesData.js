@@ -12,7 +12,7 @@ const experienceData = [
 export default function ExperiencesData(){
     return(
         <>
-            <h1 className="mt-5">Work Experience</h1>
+            <h1 className="font-semibold lg:text-2xl text-xl w-fit mt-7">Work Experience</h1>
             <div className="flex flex-wrap mt-3 w-full gap-5 md:mx-7">
                 {experienceData.map((experience, index) =>
                     <ExperiencesUI
@@ -24,6 +24,8 @@ export default function ExperiencesData(){
                     />
                 )}
             </div>
+        <div className="h-0.5 w-full bg-black my-7"></div>
+
         </>
     );
 }

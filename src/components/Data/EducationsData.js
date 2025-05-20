@@ -17,7 +17,9 @@ const educationsData = [
 export default function EducationsData(){
     return(
         <>
-            <h1>Educational Background</h1>
+        <div>
+            <div className="h-0.5 w-full bg-black mb-3"></div>
+            <h1 className="font-semibold lg:text-2xl text-xl w-fit">Educational Background</h1>
             <div className="flex mt-3 md:mx-7 flex-wrap gap-5 w-full">
                 {educationsData.map((educations, index) =>
                     <EducationsUI
@@ -28,6 +30,7 @@ export default function EducationsData(){
                     />
                 )}
             </div>
+        </div>
         </>
     );
 }

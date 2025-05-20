@@ -3,7 +3,9 @@ import CardData from './components/Data/cardData';
 import EducationsData from './components/Data/EducationsData';
 import ExperiencesData from './components/Data/ExperiencesData';
 import SkillsData from './components/Data/SkillsData';
+import EmailSection from './components/UI/EmailSection';
 import Footer from './components/UI/Footer';
+
 import './App.css';
 
 function App() {
@@ -20,6 +22,9 @@ function App() {
         </div> 
         <div className='w-full h-full px-8 py-4 lg:py-12'>
           <SkillsData/>
+        </div>
+        <div>
+          <EmailSection/>
         </div>
         <Footer/>
       </div>
