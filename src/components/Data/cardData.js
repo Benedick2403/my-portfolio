@@ -55,7 +55,7 @@ const cardData = [
 
 export default function CardData() {
   return (
-    <div className="h-full overflow-y-auto rounded-lg">
+    <div className="lg:h-full h-[35rem] overflow-y-auto rounded-lg">
       <h1 className='font-bold py-4 text-[#f5930b]'>PROJECTS</h1>
         <div className="flex flex-col gap-6">
             {cardData.map((card, index) => (
