@@ -8,7 +8,7 @@ const downloadablesData = [
     },
     {
         name_dl: "My CV",
-        link_dl: "/MERCADO_B - RESUME.pdf"
+        link_dl: "/MERCADO_B - CV.pdf"
 
     },
 ];
