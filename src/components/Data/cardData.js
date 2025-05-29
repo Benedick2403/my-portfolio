@@ -27,6 +27,15 @@ const cardData = [
 
   },
     {
+    image:'/projectImg/AvengersComics.png',
+    day: 'February, 2024',
+    title: 'Avengers Comic',
+    description: 'A Marvel inspired slider ',
+    link: 'https://benedick2403.github.io/marvel/',
+    language:'HTML, CSS, JavaScript',
+
+  },
+    {
     image:'/projectImg/Rock-Paper-Scissor.png',
     day: 'June, 2024',
     title: 'Rock-Paper-Scissor',
@@ -48,7 +57,7 @@ const cardData = [
     day: 'April, 2025',
     title: 'Infinite Descent',
     description: 'A 2D Game with Enhanced Procedural Dungeon Map Generation Through Wave Function Collapse (WFC) And Assets Generation Using Generative Adversarial Networks (GANs)',
-    link: '',
+    link: 'https://github.com/JushuaTaduran/Infinite-Descent',
     language:'Unity, Python, PyTorch, C#',
   },
 ];

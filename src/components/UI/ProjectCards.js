@@ -23,7 +23,7 @@ export default function ProjectCards({image, day, title, description, link, lang
               {language?.split(',').map((lang, index)=>
                 <span
                 key={index}
-                className='inline-block bg-[#4195C2] rounded-full px-3 py-1 text-sm mr-2 mb-2'
+                className='inline-block border border-[#4195C2] rounded-full px-3 py-1 text-sm mr-2 mb-2 transition-transform hover:translate-y-[-5px] hover:shadow-md'
                 >
                   {lang.trim()}
                 </span>
